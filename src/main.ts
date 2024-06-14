@@ -12,3 +12,5 @@ app.use(Antd)
 app.use(VAR)
 app.use(Notifications)
 app.mount('#app')
+
+export {default as MyComponent} from './views/Home.vue'

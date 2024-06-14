@@ -1,5 +1,10 @@
 const { defineConfig } = require('@vue/cli-service');
 module.exports = defineConfig({
+  configureWebpack:{
+    output: {
+      filename: 'app.js'
+    }
+  },
   transpileDependencies: true,
   devServer: {
     // disableHostCheck: true,//webpack4.0 开启热更新
